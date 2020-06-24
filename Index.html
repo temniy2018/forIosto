@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="./Index.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b9115b1ef9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid" style="background-image: url(./img/MotoBackground.png);">
+            <div class="container-xl">
+                <div style="padding: 5px 10px;" class="row">
+                    <div class="col-sm-2">
+                        <i class="fas fa-phone red-icon"></i>
+                        <span class="white-small-text">051 00000</span>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fas fa-envelope red-icon"></i>
+                        <span class="white-small-text">info@bikechance.com</span>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="far fa-life-ring red-icon"></i>
+                        <span class="white-small-text">Apri un ticket</span>
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-2 d-sm-flex align-items-center justify-content-end">
+                        <img src="./img/ita.png" alt="ita" class="ita">
+                        <span class="white-small-text">ita</span>
+                        <i class="fas fa-chevron-down white-small-text" style="font-size: 10px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl">
+            <div class="row mbt-10">
+                <div class="col-sm-4">
+                    <span class="bike">BIKE</span><span class="chance">CHANCE</span>
+                </div>
+                <div class="col-sm-4 d-sm-flex align-items-center">
+                    <input type="text" size="35" class="input"/>
+                    <button class="button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 d-sm-flex align-items-center justify-content-end">
+                    <button class="no-button">
+                        <div class="profile-img"><img></img></div>
+                        <span class="profile-name">Josto</span> 
+                        <i class="fas fa-chevron-down profile-name"></i>
+                    </button>
+                    <button class="no-button"> 
+                            <i class="fas fa-bell" style="font-size: 15px;"></i>
+                            <span class="zero notification">0</span>
+                    </button>
+                    <button class="no-button">
+                            <i class="fas fa-shopping-cart" style="font-size: 15px;"></i>
+                            <span class="notification">1</span>
+                    </button>
+                </div>
+            </div>
+            <ul class="nav justify-content-between mbt-10">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><h5>HOME</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>NOTIZIE</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>TUTORIAL</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>EVENTI</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>COMMUNITY GARAGE</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>COMMUNITY CARD</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link shop-link" href="#"><h5>SHOP ONLINE</h5></a>
+                </li>
+            </ul>
+            <div class="row mbt-10 d-flex justify-content-between">
+                <div class="col-8 p-0 d-md-flex justify-content-end align-items-end" style="background-image: url(./img/SliderMoto.png); height: 350px">
+                    <div class="slider-text d-sm-flex align-items-start flex-column">
+                        <span class="white-medium-text">
+                            MotoGP virtuale: Domenica 29 marzo Valentino Rossi e gli altri piloti <br>
+                             della MotoGP si sfideranno con i <br>
+                            videogame sulla pista del Mugello <br> 
+                        </span>
+                        <a class="leggi-button">LEGGI TUTTO <i class="fas fa-long-arrow-alt-right" style="color: #f21e1e"></i></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="./img/RomaMotoDays.png" alt="Roma moto days" height="350px">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-image: url(./img/MotoBackground.png);">
+            <div class="container-xl">
+                <div class="row mbt-10 p-4">
+                    <div class="col-3">
+                        <span class="white-medium-text">LA MIA MOTO</span>
+                    </div>
+                    <div class="col-2 align-items-center d-flex">
+                        <select class="select">
+                            <option>Marca</option>  
+                        </select> 
+                    </div> 
+                    <div class="col-2 align-items-center d-flex">
+                        <select class="select">
+                            <option>Modello</option>  
+                        </select>
+                    </div>
+                    <div class="col-2 align-items-center d-flex">
+                        <select class="select">
+                            <option>Anna</option>  
+                        </select>
+                    </div>
+                    <div class="col-3 align-items-center d-flex justify-content-center">
+                        <button class="la-mia-moto-button">
+                            CERCA COMPONENTI
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-8">
+                    <h5>ULTIME NOTIZIE</h5>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-6">
+                            <img src="./img/MulteFino.png" alt="mute fino" style="width: 100%">
+                            <p class="news-head-text">Multe fino a 4.000 euro per chi viola le restrizioni in moto</p>
+                            <p class="news-text">l Presidente del Consiglio Conte ha inasprito le sanzioni per chi non rispetta le misure restrittive messe in atto...</p>
+                            <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/UnaHonda.png" alt="mute fino" style="width: 100%">
+                            <p class="news-head-text">Una Honda RC213V contribuisce alla lotta contro il Covid-19</p>
+                            <p class="news-text">La Honda RC213V MotoGP del Team LCR tra i protagonisti della mostra in aiuto degli ospedali bresciani per la corsa...</p>
+                            <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/LoScooter.png" alt="mute fino" style="width: 100%">
+                            <p class="news-head-text">Lo scooter elettrico Harley-Davidson vicino alla produzione</p>
+                            <p class="news-text">La Casa di Milwaukee ha presentato la richiesta di brevetto per il mercato europeo dello scooter elettrico “City Speedster”...</p>
+                            <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/MvAgusta.png" alt="mute fino" style="width: 100%">
+                            <p class="news-head-text">MV Agusta: interrotta momentaneamente la produzione</p>
+                            <p class="news-text">In ottemperanza alle nuove disposizioni del governo, la Casa di Schiranna interromperà la propria produzione a partire dal 26 marzo</p>
+                            <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
+                        </div>
+                    </div>
+                    <button class="blue-border-button">Tutte le notizie>></button>
+                </div>
+                <div class="col-4" style="background-color: #aaaaaa33">
+                    <div class="d-flex">
+                        <img src="./img/Eagless.png" alt="Eagless" style="width: 30%; margin: 10px">
+                        <div class="d-flex justify-content-center flex-column" style="width: 60%;">
+                            <p class="event-top">28-03-2020 <br>
+                                Bertiolo, UD (IT)</p>
+                            <p class="event-bot">EAGLES BBQ CONTEST 
+                                2^ EDIZIONE</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/Motopolentata.png" alt="Eagless" style="width: 30%; margin: 10px">
+                        <div class="d-flex justify-content-center flex-column" style="width: 60%;">
+                            <p class="event-top">28-03-2020 <br>
+                                Bertiolo, UD (IT)</p>
+                            <p class="event-bot">MOTOPOLENTATA</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/39deg.png" alt="Eagless" style="width: 30%; margin: 10px">
+                        <div class="d-flex justify-content-center flex-column" style="width: 60%;">
+                            <p class="event-top">28-03-2020 <br>
+                                Fossano, CN (IT)</p>
+                            <p class="event-bot">39° MOTORADUNO DI 
+                                FOSSANO</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/StreetFood.png" alt="Eagless" style="width: 30%; margin: 10px">
+                        <div class="d-flex justify-content-center flex-column" style="width: 60%;">
+                            <p class="event-top">04-04-2020 <br>
+                                Azzano Decimo, PN (IT)</p>
+                            <p class="event-bot">STREET FOOD FESTIVAL 
+                                & TRIUMPH</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/AlbaChoper.png" alt="Eagless" style="width: 30%; margin: 10px">
+                        <div class="d-flex justify-content-center flex-column" style="width: 60%;">
+                            <p class="event-top">15-05-2020 <br>
+                                Alba, CN (IT)</p>
+                            <p class="event-bot">ALBA CHOPPER SHOW 2020</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./img/XIV.png" alt="Eagless" style="width: 30%; margin: 10px">
+                        <div class="d-flex justify-content-center flex-column" style="width: 60%;">
+                            <p class="event-top">24-05-2020 <br>
+                                Sutri, VT (IT)</p>
+                            <p class="event-bot">XIV MOTORADUNO 
+                                ETRUSCHI BIKERS</p>
+                        </div>
+                    </div>
+                    <button class="blue-border-button">Tutte gli eventi>></button>
+                </div>
+            </div>
+            <div class="row p-4 mbt-10" style="background-color: #aaaaaa33;">
+                <p class="gray-text">Area banner 1 (PROMO CHE PORTA AL NEGOZIO)</p>
+            </div>
+            <div class="row p-2">
+                <h5 style="color: #04355b">NUOVI ARRIVI IN NEGOZIO</h5>
+                <div class="d-flex flex-wrap col-12 justify-content-between align-items-stretch" style="padding: 0;">
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/Dayco.png" alt="Dayco">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                            </div>
+                            <img src="./img/DaycoItem.png" class="mb-3 mt-3" alt="Dayco" style="width: 100%">
+                            <p class="item-text">2 cinghie distribuzione Dayco Ducati Monster S4 916 S4R 996 2001-2006</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                <span class="price">49.00€</span>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/ognibenne.png" alt="ognibene">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                            </div>
+                            <img src="./img/ongibeneItem.png" class="mb-3 mt-3" alt="ognibene" style="width: 100%">
+                            <p class="item-text">maglia di giunzione da ribattere per catena 
+                                Ognibene 525 HX HV...</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                <span class="price">7.50€</span>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/trof.png" alt="TROF">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                            </div>
+                            <div class="promo-div">
+                                <img src="./img/trofItem.png" alt="TROF" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                <div class="promo"><span>PROMO</span></div>
+                            </div>
+                            </img>
+                            <p class="item-text">2 cinghie distribuzione Dayco Ducati Monster S4 916 S4R 996 2001-2006</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                <div class="d-flex align-items-center">
+                                    <span class="gray-price"><s>19.90€</s></span>
+                                    <span class="price">10.00€</span>
+                                </div>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/NISSIN.png"  alt="NISSIN">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #aaa;"></i></span>
+                            </div>
+                            <div class="promo-div">
+                                    <img src="./img/NISSINItem.png" alt="NISSIN" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                    <div class="promo"><span>PROMO</span></div>
+                                </div>
+                            <p class="item-text">pistoncino NISSIN diametro 27 x H31 mm per pinza freno</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <div class="d-flex align-items-center">
+                                            <span class="gray-price"><s>19.90€</s></span>
+                                            <span class="price">16.90€</span>
+                                        </div>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/Dayco.png" alt="Dayco">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                            </div>
+                            <div class="promo-div">
+                                    <img src="./img/DaycoItem.png" alt="Dayco" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                    <div class="promo"><span>PROMO</span></div>
+                                </div>
+                            <p class="item-text">2 cinghie distribuzione Dayco Ducati Monster S4 916 S4R 996 2001-2006</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <div class="d-flex align-items-center">
+                                            <span class="gray-price"><s>49.00€</s></span>
+                                            <span class="price">45.00€</span>
+                                        </div>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/ognibenne.png" alt="ognibene">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                            </div>
+                            <div class="promo-div">
+                                    <img src="./img/ongibeneItem.png" alt="ognibene" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                    <div class="promo"><span>PROMO</span></div>
+                                </div>
+                            <p class="item-text">maglia di giunzione da ribattere per catena 
+                                Ognibene 525 HX HV...</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <div class="d-flex align-items-center">
+                                        <span class="gray-price"><s>7.50€</s></span>
+                                        <span class="price">6.90€</span>
+                                    </div>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/trof.png" alt="TROF">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                            </div>
+                            <div class="promo-div">
+                                <img src="./img/trofItem.png" alt="Dayco" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                <div class="promo"><span>PROMO</span></div>
+                            </div>
+                            </img>
+                            <p class="item-text">2 cinghie distribuzione Dayco Ducati Monster S4 916 S4R 996 2001-2006</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                <div class="d-flex align-items-center">
+                                    <span class="gray-price"><s>19.90€</s></span>
+                                    <span class="price">18.00€</span>
+                                </div>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mbt-10">
+                        <div class="item-div">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="./img/NISSIN.png"  alt="NISSIN">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #aaa;"></i></span>
+                            </div>
+                            <div class="promo-div">
+                                    <img src="./img/NISSINItem.png" alt="NISSIN" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                    <div class="promo"><span>PROMO</span></div>
+                                </div>
+                            <p class="item-text">pistoncino NISSIN diametro 27 x H31 mm per pinza freno</p>
+                            <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <div class="d-flex align-items-center">
+                                        <span class="gray-price"><s>19.90€</s></span>
+                                        <span class="price">16.90€</span>
+                                    </div>
+                                <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2" style="background-color: #aaaaaa33;">
+                <h5 style="color: #04355b">TUTORIAL RECENTI</h5>
+                <div class="col-12 mbt-10 d-flex flex-wrap">
+                    <div class="col-4">
+                        <img src="./img/Sostituzione.png" alt="Sostituzione" style="width: 100%">
+                        <h6 style="color: #04355b">Sostituzione cinghie di distribuzione Ducati Monster s4</h6>
+                        <p class="news-date-category"><span style="color: #555">inserito da: </span>Josto</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="./img/Riparazione.png" alt="Riparazione" style="width: 100%">
+                        <h6 style="color: #04355b">Riparazione carene VTR</h6>
+                        <p class="news-date-category"><span style="color: #555">inserito da: </span>Josto</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="./img/ComiVerniziane.png" alt="Come verniciare" style="width: 100%">
+                        <h6 style="color: #04355b">Come verniciare i cerchi della propria moto</h6>
+                        <p class="news-date-category"><span style="color: #555">inserito da: </span>Josto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-12 d-flex flex-wrap">
+                    <div class="col-4">
+                        <div class="banner">
+                            Banner media 1
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="banner">
+                            Banner media 2
+                        </div> 
+                    </div>
+                    <div class="col-4">
+                        <div class="banner">
+                            Banner media 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: black;">
+            <div class="container-xl">
+                <div class="row mbt-10">
+                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                        <div class="col-4 d-flex align-items-center">
+                            <i class="fas fa-truck" style="color: #f21e1e; font-size: 50px"></i>
+                            <div class="p-2" style="color: white">
+                                <h5 style="margin-bottom: 3px;">Spedizione gratuita</h5>
+                                <p style="margin: 0;">Per ordini superiori a 199€</p>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex align-items-center">
+                            <i class="fas fa-credit-card" style="color: #f21e1e; font-size: 50px"></i>
+                            <div class="p-2" style="color: white">
+                                <h5 style="margin-bottom: 3px;">Pagamenti sicuri</h5>
+                                <p style="margin: 0;">Utilizziamo piattaforme certificate</p>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex align-items-center">
+                            <i class="fas fa-redo" style="color: #f21e1e; font-size: 50px"></i>
+                            <div class="p-2" style="color: white">
+                                <h5 style="margin-bottom: 3px;">Resi fino a 30gg</h5>
+                                <p style="margin: 0;">Consultare le condizioni per i resi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-image: url(./img/footerFon.png);">
+            <div class="container-xl">
+                <div class="row d-flex justify-content-around align-self-center" style="color: white; padding: 70px 0 50px 0;">
+                    <div class="col-3">
+                        <h5>Contati</h5>
+                        <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">Telefono:</span> 051 00000</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">Email: </span>info@bikechance.com</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">Ticket:</span> Richiedi assistenza</a>
+                        <a href="#" style="color: white; font-size: 20px;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="col-3">
+                        <h5>Spedizioni e pagamenti</h5>
+                        <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Spedizioni</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Pagamenti</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span> Diritto di recesso e rimborsi</a>
+                    </div>
+                    <div class="col-3">
+                        <h5>Info</h5>
+                        <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Chi siamo</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Termini e condizioni</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span> Privacy policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

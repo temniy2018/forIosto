@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none !important;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mbt-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.white-small-text {
+    color: white;
+    margin: 5px 1px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.white-medium-text {
+    color: white;
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.red-icon {
+    font-size: 15px;
+    color: red;
+}
+
+.ita {
+    height: 10px;
+    width: auto;
+}
+
+.bike {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #04355b;
+}
+
+.chance {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #f21e1e;
+}
+
+.input {
+    border: #04355b 1px solid;
+    border-radius: 0 !important;
+    outline: 0 !important;
+}
+
+.button {
+    border: #04355b 1px solid;
+    background: #04355b;
+    color: white;
+    border-radius: 0 !important;
+    outline: 0 !important;
+}
+
+.no-button {
+    border: 0;
+    background: none;
+    position: relative;
+    border-radius: 0 !important;
+    outline: 0 !important;
+}
+
+.profile-img {
+    border-radius: 50%;
+    background: #04355b;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.profile-name {
+    font-size: 14px;
+    color: #04355b;
+    font-family: 'Lato', sans-serif;
+}
+
+.inactive {
+    color: #555;
+}
+
+.inactive:focus, .inactive:hover {
+    color: #2f3f58;
+}
+
+.notification {
+    position: absolute;
+    background-color: #f21e1ecc;
+    color: white;
+    right: -1px;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.zero {
+    background-color: #555555cc !important;
+}
+
+.shop-link {
+    color: #f21e1e;
+}
+
+.non-active {
+    text-align: center;
+    background-color: #aaaaaa33;
+    color: #bbb;
+}
+
+.active-moto {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.select {
+    width: 160px;
+}
+
+.select:hover, .select: :active {
+    overflow: 0;
+}
+
+.la-mia-moto-button {
+    background-color: #f21e1e;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    overflow: hidden !important;
+    border: 0;
+    padding: 5px 7px;
+}
+
+.shop-link {
+    display: block;
+    color: #aaa !important;
+}
+
+.brand-link {
+    display: block;
+    color: #31e800 !important;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.promo-link {
+    display: block;
+    color: #f21e1e !important;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.shop-online {
+    display: block;
+    background-color: #aaaaaa20;
+    color: #888;
+    padding: 5px;
+}
+
+.item-div {
+    border: 1px solid #555; 
+    margin: 0 10px; 
+    padding: 5px; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-text {
+    color: #04355b;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.price {
+    color: white;
+    padding: 5px;
+    background-color: #f21e1e;
+    font-family: 'Lato', sans-serif;
+}
+
+.gray-price {
+    color: white;
+    padding: 5px;
+    background-color: #aaa;
+    font-family: 'Lato', sans-serif;
+}
+
+.cart {
+    color: white;
+    background-color: #04355b;
+    padding: 2px 6px;
+}
+
+.promo-div {
+    position: relative;
+}
+
+.promo {
+    background-image: url(./img/promoTag.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -7px;
+    left: -4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    text-align: center;
+    font-weight: bold;
+    color: #999;
+    background-color: #aaaaaa33;
+}
+
+.twitter {
+    border-radius: 50%;
+    background-color: white;
+    color: black !important;
+    font-size: 15px;
+    padding: 1px 2px;
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Prodotto</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="./product.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b9115b1ef9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid" style="background-image: url(./img/MotoBackground.png);">
+            <div class="container-xl">
+                <div style="padding: 5px 10px;" class="row">
+                    <div class="col-sm-2">
+                        <i class="fas fa-phone red-icon"></i>
+                        <span class="white-small-text">051 00000</span>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fas fa-envelope red-icon"></i>
+                        <span class="white-small-text">info@bikechance.com</span>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="far fa-life-ring red-icon"></i>
+                        <span class="white-small-text">Apri un ticket</span>
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-2 d-sm-flex align-items-center justify-content-end">
+                        <img src="./img/ita.png" alt="ita" class="ita">
+                        <span class="white-small-text">ita</span>
+                        <i class="fas fa-chevron-down white-small-text" style="font-size: 10px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl">
+            <div class="row mbt-10">
+                <div class="col-sm-4">
+                    <span class="bike">BIKE</span><span class="chance">CHANCE</span>
+                </div>
+                <div class="col-sm-4 d-sm-flex align-items-center">
+                    <input type="text" size="35" class="input"/>
+                    <button class="button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 d-sm-flex align-items-center justify-content-end">
+                    <button class="no-button">
+                        <div class="profile-img"><img></img></div>
+                        <span class="profile-name">Josto</span> 
+                        <i class="fas fa-chevron-down profile-name"></i>
+                    </button>
+                    <button class="no-button"> 
+                            <i class="fas fa-bell" style="font-size: 15px;"></i>
+                            <span class="zero notification">0</span>
+                    </button>
+                    <button class="no-button">
+                            <i class="fas fa-shopping-cart" style="font-size: 15px;"></i>
+                            <span class="notification">1</span>
+                    </button>
+                </div>
+            </div>
+            <ul class="nav justify-content-between mbt-10">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><h5>HOME</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>NOTIZIE</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>TUTORIAL</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>EVENTI</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>COMMUNITY GARAGE</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive" href="#"><h5>COMMUNITY CARD</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link shop-link" href="#"><h5>SHOP ONLINE</h5></a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-3 non-active">
+                    <span>Ricerca libera</span>
+                </div>
+                <div class="col-3 active-moto">
+                    <span>Ricerca modello moto</span>
+                </div>
+                <div class="col-3 non-active">
+                    <span>Ricerca codice prodotto</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl" style="background-image: url(./img/MotoBackground.png);">
+            <div class="row p-4">
+                <div class="col-3">
+                    <span class="white-medium-text">LA MIA MOTO</span>
+                </div>
+                <div class="col-2 align-items-center d-flex">
+                    <select class="select">
+                        <option>Marca</option>  
+                    </select> 
+                </div> 
+                <div class="col-2 align-items-center d-flex">
+                    <select class="select">
+                        <option>Modello</option>  
+                    </select>
+                </div>
+                <div class="col-2 align-items-center d-flex">
+                    <select class="select">
+                        <option>Anna</option>  
+                    </select>
+                </div>
+                <div class="col-3 align-items-center d-flex justify-content-center">
+                    <button class="la-mia-moto-button">
+                        CERCA COMPONENTI
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl mbt-10">
+            <div class="row">
+                <div class="col-3">
+                    <a href="#" class="shop-link">Attrezzi e manutenzione</a>
+                    <a href="#" class="shop-link">Freni e leve</a>
+                    <a href="#" class="shop-link">Trasmissione</a>
+                    <a href="#" class="shop-link">Filtri</a>
+                    <a href="#" class="shop-link">Elettronica</a>
+                    <a href="#" class="brand-link">BRAND</a>
+                    <a href="#" class="promo-link">PROMO</a>
+                </div>
+                <div class="col-9">
+                    <span class="section-link"><a href="#" style="color: #f21e1e; text-decoration: underline !important;">Macro area</a> > <a href="#" style="color: #f21e1e; text-decoration: underline !important;">sottocategoria</a> > nomeprodotto cod.000</span>
+                    <div class="d-flex">
+                        <div class="col-7">
+                            <div style="position: relative;">
+                                <img src="./img/KitPastiglie.png" alt="Kit pastiglie" style="width: 100%">
+                                <div class="promo">PROMO</div>
+                            </div>
+                            <div class="d-flex flex-wrap mbt-10">
+                                <div class="col-2">
+                                    <img src="./img/KitPastiglieSmall1.png" alt="Kit Pastiglie" style="width: 100%;">
+                                </div>
+                                <div class="col-2">
+                                    <img src="./img/KitPastiglieSmall2.png" alt="Kit Pastiglie" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <img src="./img/LogoProduct.png" alt="Trof" style="width: 35%">
+                            <div class="d-flex" style="margin-top: 10px;">
+                                <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                                <span class="review">Recensioni: <span style="color: #f21e1e; text-decoration: underline !important">3</span></span>
+                            </div>
+                            <h3 style="color: #04355b">kit pastiglie anteriori + posteriori KTM EXC 250 2t 4t 2009 2010 2011 2012 2013</h3>
+                            <p class="cod">COD: 00000 | Disponibilità: 3</p>
+                            <div class="d-flex align-items-center">
+                                <span class="gray-price"><s>49.00€</s></span>
+                                <span class="price">45.00€</span>
+                            </div>
+                            <span class="cart"><i class="fas fa-shopping-cart" style="margin: 0 5px;"></i>Aggiungi al carrello</span>
+                            <img src="./img/PaymentMethods.png" alt="payment methods" style="width: 100%;">
+                            <h5 style="color: #999">Condividi prodotto</h5>
+                            <div class="d-flex flex-wrap" style="font-size: 25px">
+                                <a href="#" style="margin: 0 5px;"><i class="fab fa-facebook-square" style="color: blue"></i></a>
+                                <a href="#" style="margin: 0 5px;"><i class="fab fa-twitter-square" style="color: #1aa1fa"></i></a>
+                                <a href="#" style="margin: 0 5px;"><i class="fab fa-linkedin" style="color: #0075ba"></i></a>
+                                <a href="#" style="margin: 0 5px;"><i class="fab fa-pinterest-square" style="color: red"></i></a>
+                                <a href="#" style="margin: 0 5px;"><i class="fas fa-envelope-square" style="color: #777"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-product">
+                        <span class="panel-product_tabs active-tab">Descrizione</span>
+                        <span class="panel-product_tabs inactive-tab">Recensioni</span>
+                    </div>
+                    <h5 style="color: #777">KIT PASTIGLIE TROFEO ORGANICHE ANTERIORI + POSTERIORI <br>
+                        PER KTM EXC 250 2T/4T m.y. dal 2004 al 2017</h5>
+                    <h5 style="color: #777">Organiche</h5>
+                    <p style="color: #999">Si distinguono per l'utilizzo dei materiali "organici" tradizionalmente usati dalle case motociclistiche. Le pastiglie freno organiche assicurano il medesimo standard produttivo del primo equipaggiamento, quindi un ottimo grado di sicurezza e un vantaggioso rapporto qualità/prezzo.</p>
+                    <h5 style="color: #04355b">PRODOTTI CORRELATI</h5>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-4 mbt-10">
+                            <div class="item-div">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <img src="./img/Dayco.png" alt="Dayco">
+                                    <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                                </div>
+                                <img src="./img/DaycoItem.png" class="mb-3 mt-3" alt="Dayco" style="width: 100%">
+                                <p class="item-text">2 cinghie distribuzione Dayco Ducati Monster S4 916 S4R 996 2001-2006</p>
+                                <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <span class="price">49.00€</span>
+                                    <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mbt-10">
+                            <div class="item-div">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <img src="./img/ognibenne.png" alt="ognibene">
+                                    <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                                </div>
+                                <img src="./img/ongibeneItem.png" class="mb-3 mt-3" alt="ognibene" style="width: 100%">
+                                <p class="item-text">maglia di giunzione da ribattere per catena 
+                                    Ognibene 525 HX HV...</p>
+                                <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <span class="price">7.50€</span>
+                                    <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mbt-10">
+                            <div class="item-div">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <img src="./img/trof.png" alt="TROF">
+                                    <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
+                                </div>
+                                <div class="promo-div">
+                                    <img src="./img/trofItem.png" alt="TROF" class="mb-3 mt-3" style="width: 100%; position: relative;">
+                                    <div class="promo-item"><span>PROMO</span></div>
+                                </div>
+                                </img>
+                                <p class="item-text">2 cinghie distribuzione Dayco Ducati Monster S4 916 S4R 996 2001-2006</p>
+                                <div class="d-flex justify-content-between align-items-center mbt-10">
+                                    <div class="d-flex align-items-center">
+                                        <span class="gray-price"><s>19.90€</s></span>
+                                        <span class="price">10.00€</span>
+                                    </div>
+                                    <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: black; margin-top: 30px">
+            <div class="container-xl">
+                <div class="row mbt-10">
+                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                        <div class="col-4 d-flex align-items-center">
+                            <i class="fas fa-truck" style="color: #f21e1e; font-size: 50px"></i>
+                            <div class="p-2" style="color: white">
+                                <h5 style="margin-bottom: 3px;">Spedizione gratuita</h5>
+                                <p style="margin: 0;">Per ordini superiori a 199€</p>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex align-items-center">
+                            <i class="fas fa-credit-card" style="color: #f21e1e; font-size: 50px"></i>
+                            <div class="p-2" style="color: white">
+                                <h5 style="margin-bottom: 3px;">Pagamenti sicuri</h5>
+                                <p style="margin: 0;">Utilizziamo piattaforme certificate</p>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex align-items-center">
+                            <i class="fas fa-redo" style="color: #f21e1e; font-size: 50px"></i>
+                            <div class="p-2" style="color: white">
+                                <h5 style="margin-bottom: 3px;">Resi fino a 30gg</h5>
+                                <p style="margin: 0;">Consultare le condizioni per i resi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-image: url(./img/footerFon.png); margin-top: -10px;">
+            <div class="container-xl">
+                <div class="row d-flex justify-content-around align-self-center" style="color: white; padding: 70px 0 50px 0;">
+                    <div class="col-3">
+                        <h5>Contati</h5>
+                        <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">Telefono:</span> 051 00000</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">Email: </span>info@bikechance.com</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">Ticket:</span> Richiedi assistenza</a>
+                        <a href="#" style="color: white; font-size: 20px;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="col-3">
+                        <h5>Spedizioni e pagamenti</h5>
+                        <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Spedizioni</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Pagamenti</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span> Diritto di recesso e rimborsi</a>
+                    </div>
+                    <div class="col-3">
+                        <h5>Info</h5>
+                        <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Chi siamo</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Termini e condizioni</a>
+                        <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span> Privacy policy</a>
+                    </div>
+                    <img src="./img/Sfondo.png" alt="Negozio" style="width: 100%; margin: 20px 0">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: black;">
+            <div class="container-xl">
+                <p style="color: white">BikeChance di Marco Fini - San Lazzaro di Savena (BO) Italia - p.iva IT 02896511207 - <span style="color: #f21e1e">cookie policy</span></p>
+            </div>
+        </div>
+    </body>
+</html>
