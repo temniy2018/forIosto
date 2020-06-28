@@ -20,19 +20,28 @@ a {
     color: white;
     margin: 5px 1px;
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 .white-medium-text {
     color: white;
     margin: 5px;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .red-icon {
-    font-size: 15px;
+    font-size: 0.9em;
     color: red;
+}
+
+.ita-btn {
+    padding: 0 !important;
+}
+
+
+.ita-btn::after {
+    border-top: .3em solid white !important;
 }
 
 .ita {
@@ -42,16 +51,53 @@ a {
 
 .bike {
     font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-size: 1.6em;
     font-weight: bolder;
     color: #04355b;
 }
 
 .chance {
     font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-size: 1.6em;
     font-weight: bolder;
     color: #f21e1e;
+}
+
+.menu {
+    color: white;
+    background-color: #04355b;
+    padding: 6px 8px;
+}
+
+.menu-child {
+    background-color: #04355b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 60%;
+    display: none !important;
+}
+
+.cross {
+    font-size: 2.1em;
+    color: #f21e1e;
+}
+
+#menu:checked ~ .col-2 .menu-child {
+    display: flex !important;
+}
+
+.menu-hr {
+    border-top: 1px solid #21537a;
+    width: 100%
+}
+
+.bike-menu {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #fff;
 }
 
 .input {
@@ -66,6 +112,7 @@ a {
     color: white;
     border-radius: 0 !important;
     outline: 0 !important;
+    font-size: 1em;
 }
 
 .no-button {
@@ -142,7 +189,7 @@ a {
     background-color: #f21e1e;
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 1em;
     overflow: hidden !important;
     border: 0;
     padding: 5px 7px;
@@ -268,4 +315,94 @@ a {
     color: black !important;
     font-size: 15px;
     padding: 1px 2px;
+}
+
+@media (max-width: 1024px) {
+    .price {
+        font-size: 0.7em;
+    }
+
+    .gray-price {
+        font-size: 0.7em;
+    }
+
+    .cart {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 991px) {
+    .no-mobile {
+        display: none !important;
+    }
+
+    html {
+        font-size: 1em;
+    }
+
+    .button {
+        font-size: 0.9em;
+    }
+
+    .bike {
+        font-size: 1.1em;
+    }
+
+    .chance {
+        font-size: 1.1em;
+    }
+
+    .Roma {
+        padding: 30px 5%;
+    }
+
+    .la-mia-moto-button {
+        font-size: 0.6em;
+        margin: 10px 0;
+    }
+
+    .item-div {
+        margin: 0;
+    }
+
+    i {
+        font-size: 0.8em;
+    }
+
+    .promo {
+        width: 30px;
+        height: 30px;
+        font-size: 0.55em;
+    }
+    
+    .price {
+        font-size: 0.8em;
+    }
+
+    .gray-price {
+        font-size: 0.8em;
+    }
+
+    .twitter {
+        padding: 0 3px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width : 576px) {
+    html {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 992px) {
+    .no-pc {
+        display: none !important;
+    }
 }

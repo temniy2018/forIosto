@@ -11,45 +11,108 @@
     </head>
     <body>
         <div class="container-fluid" style="background-image: url(./img/MotoBackground.png);">
-            <div class="container-xl">
-                <div style="padding: 5px 10px;" class="row">
-                    <div class="col-sm-2">
+            <div class="container-lg">
+                <div style="padding: 5px 0;" class="row">
+                    <div class="col-lg-2 col-4 d-flex align-items-center justify-content-center" style="padding: 0; text-align: center;">
                         <i class="fas fa-phone red-icon"></i>
                         <span class="white-small-text">051 00000</span>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-lg-2 col-4 d-flex align-items-center justify-content-center" style="padding: 0; text-align: center;">
                         <i class="fas fa-envelope red-icon"></i>
                         <span class="white-small-text">info@bikechance.com</span>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-lg-2 col-4 d-flex align-items-center justify-content-center" style="padding: 0; text-align: center;">
                         <i class="far fa-life-ring red-icon"></i>
                         <span class="white-small-text">Apri un ticket</span>
                     </div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-2 d-sm-flex align-items-center justify-content-end">
-                        <img src="./img/ita.png" alt="ita" class="ita">
-                        <span class="white-small-text">ita</span>
-                        <i class="fas fa-chevron-down white-small-text" style="font-size: 10px"></i>
+                    <div class="col-lg-4 no-mobile"></div>
+                    <div class="col-lg-2 d-sm-flex align-items-center justify-content-end no-mobile">
+                        <div class="dropdown">
+                            <button class="ita-btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="./img/ita.png" alt="ita" class="ita">
+                                <span class="white-small-text">ita</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">ita</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-xl">
-            <div class="row mbt-10">
-                <div class="col-sm-4">
+        <div class="container-lg">
+            <div class="row mbt-10 d-flex align-items-center">
+                <div class="no-pc col-2" style="text-align: center; position: initial;">
+                    <div><label for="menu" style="margin: 0;"><i class="fas fa-bars menu"></i></label>
+                        <div class="menu-child d-flex flex-column align-items-start" style="padding: 10px;">
+                            <div class="dropdown">
+                                <button class="ita-btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="./img/ita.png" alt="ita" class="ita">
+                                    <span class="white-small-text">ita</span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">ita</a>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center"style="width: 100%">
+                                <p style="margin-top: 10px; "><span class="bike-menu">BIKE</span><span class="chance">CHANCE</span></p>
+                                <label for="menu"><i class="fas fa-times cross"></i></label>
+                            </div>
+                            <ul class="nav flex-column align-items-start">
+                                <li class="nav-item">
+                                    <a class="active" href="#" style="color: white; padding: 5px 0; display: block;">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="inactive" href="#" style="color: white; padding: 5px 0; display: block;">NOTIZIE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="inactive" href="#" style="color: white; padding: 5px 0; display: block;">TUTORIAL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="inactive" href="#" style="color: white; padding: 5px 0; display: block;">EVENTI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="inactive" href="#" style="color: white; padding: 5px 0; display: block;">COMMUNITY GARAGE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="inactive" href="#" style="color: white; padding: 5px 0; display: block;">COMMUNITY CARD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" style="color: #f21e1e; padding: 5px 0; display: block;">SHOP ONLINE</a>
+                                </li>
+                            </ul>
+                            <hr class="menu-hr">
+                            <div class="d-flex align-items-center">
+                                <div class="profile-img" style="background-color: #0075ba;"><img></img></div>
+                                <span class="profile-name" style="color: white; margin-left: 5px;">Josto</span>
+                            </div>
+                            <p style="margin: 7px 0;"><a href="#" style="color: white;">Il mio profilo</a></p>
+                            <p style="margin: 7px 0;"><a href="#" style="color: white;">I miei ordini</a></p>
+                            <p style="margin: 7px 0;"><a href="#" style="color: white;">Logout</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-pc col-2" style="text-align: center;">
+                    <button class="button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="col-lg-4 col-4" style="text-align: center;">
                     <span class="bike">BIKE</span><span class="chance">CHANCE</span>
                 </div>
-                <div class="col-sm-4 d-sm-flex align-items-center">
+                <div class="col-lg-4 d-sm-flex align-items-center no-mobile">
                     <input type="text" size="35" class="input"/>
                     <button class="button"><i class="fas fa-search"></i></button>
                 </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 d-sm-flex align-items-center justify-content-end">
-                    <button class="no-button">
-                        <div class="profile-img"><img></img></div>
-                        <span class="profile-name">Josto</span> 
-                        <i class="fas fa-chevron-down profile-name"></i>
-                    </button>
+                <div class="col-lg-1 no-mobile"></div>
+                <div class="col-lg-3 d-sm-flex align-items-center justify-content-end  no-mobile">
+                    <div class="dropdown">
+                        <button class="no-button dropdown-toggle name" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="profile-img"><img></img></div>
+                            <span class="profile-name">Josto</span> 
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Josto</a>
+                        </div>
+                    </div>
                     <button class="no-button"> 
                             <i class="fas fa-bell" style="font-size: 15px;"></i>
                             <span class="zero notification">0</span>
@@ -59,8 +122,20 @@
                             <span class="notification">1</span>
                     </button>
                 </div>
+                <div class="no-pc col-2" style="text-align: center;">
+                    <button class="no-button"> 
+                            <i class="fas fa-bell" style="font-size: 15px;"></i>
+                            <span class="zero notification">0</span>
+                    </button>
+                </div>
+                <div class="no-pc col-2" style="text-align: center;">
+                    <button class="no-button">
+                            <i class="fas fa-shopping-cart" style="font-size: 15px;"></i>
+                            <span class="notification">1</span>
+                    </button>
+                </div>
             </div>
-            <ul class="nav justify-content-between mbt-10">
+            <ul class="nav justify-content-between mbt-10 no-mobile">
                 <li class="nav-item">
                     <a class="nav-link active" href="#"><h5>HOME</h5></a>
                 </li>
@@ -83,9 +158,9 @@
                     <a class="nav-link shop-link" href="#"><h5>SHOP ONLINE</h5></a>
                 </li>
             </ul>
-            <div class="row mbt-10 d-flex justify-content-between">
-                <div class="col-8 p-0 d-md-flex justify-content-end align-items-end" style="background-image: url(./img/SliderMoto.png); height: 350px">
-                    <div class="slider-text d-sm-flex align-items-start flex-column">
+            <div class="row mbt-10 d-flex justify-content-between align-items-center">
+                <div class="col-lg-8 col-12 p-0 d-flex justify-content-end align-items-end" style="background-image: url(./img/SliderMoto.png); height: 350px">
+                    <div class="slider-text d-flex align-items-start flex-column">
                         <span class="white-medium-text">
                             MotoGP virtuale: Domenica 29 marzo Valentino Rossi e gli altri piloti <br>
                              della MotoGP si sfideranno con i <br>
@@ -94,13 +169,49 @@
                         <a class="leggi-button">LEGGI TUTTO <i class="fas fa-long-arrow-alt-right" style="color: #f21e1e"></i></a>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-4 no-mobile">
                     <img src="./img/RomaMotoDays.png" alt="Roma moto days" height="350px">
                 </div>
             </div>
         </div>
-        <div class="container-fluid" style="background-image: url(./img/MotoBackground.png);">
-            <div class="container-xl">
+        <div class="container-fluid no-pc" style="background-image: url(./img/MotoBackground.png);">
+            <div class="container-lg">
+                <div class="row mbt-10 p-4 d-flex flex-wrap">
+                    <div class="col-12">
+                        <span class="white-medium-text">LA MIA MOTO</span>
+                    </div>
+                    <div class="col-6 align-items-center d-flex">
+                        <select class="select">
+                            <option>Marca</option>  
+                        </select> 
+                    </div> 
+                    <div class="col-6 align-items-center d-flex">
+                        <select class="select">
+                            <option>Modello</option>  
+                        </select>
+                    </div>
+                    <div class="col-6 align-items-center d-flex">
+                        <select class="select">
+                            <option>Anna</option>  
+                        </select>
+                    </div>
+                    <div class="col-6 align-items-center d-flex">
+                        <button class="la-mia-moto-button">
+                            CERCA COMPONENTI
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-md no-pc">
+            <div class="row">
+                <div class="col-lg-3 col-12 Roma">
+                    <img src="./img/RomaMotoDays.png" alt="Roma moto days" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid no-mobile" style="background-image: url(./img/MotoBackground.png);">
+            <div class="container-lg">
                 <div class="row mbt-10 p-4">
                     <div class="col-3">
                         <span class="white-medium-text">LA MIA MOTO</span>
@@ -128,30 +239,30 @@
                 </div>
             </div>
         </div>
-        <div class="container-xl">
+        <div class="container-md">
             <div class="row">
-                <div class="col-8">
+                <div class="col-lg-8 col-12">
                     <h5>ULTIME NOTIZIE</h5>
                     <div class="d-flex flex-wrap">
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <img src="./img/MulteFino.png" alt="mute fino" style="width: 100%">
                             <p class="news-head-text">Multe fino a 4.000 euro per chi viola le restrizioni in moto</p>
                             <p class="news-text">l Presidente del Consiglio Conte ha inasprito le sanzioni per chi non rispetta le misure restrittive messe in atto...</p>
                             <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <img src="./img/UnaHonda.png" alt="mute fino" style="width: 100%">
                             <p class="news-head-text">Una Honda RC213V contribuisce alla lotta contro il Covid-19</p>
                             <p class="news-text">La Honda RC213V MotoGP del Team LCR tra i protagonisti della mostra in aiuto degli ospedali bresciani per la corsa...</p>
                             <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <img src="./img/LoScooter.png" alt="mute fino" style="width: 100%">
                             <p class="news-head-text">Lo scooter elettrico Harley-Davidson vicino alla produzione</p>
                             <p class="news-text">La Casa di Milwaukee ha presentato la richiesta di brevetto per il mercato europeo dello scooter elettrico “City Speedster”...</p>
                             <p class="news-date-category"><span style="color: #555; margin-right: 5px;">25.03.2020</span> Categoria notizia</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <img src="./img/MvAgusta.png" alt="mute fino" style="width: 100%">
                             <p class="news-head-text">MV Agusta: interrotta momentaneamente la produzione</p>
                             <p class="news-text">In ottemperanza alle nuove disposizioni del governo, la Casa di Schiranna interromperà la propria produzione a partire dal 26 marzo</p>
@@ -160,7 +271,7 @@
                     </div>
                     <button class="blue-border-button">Tutte le notizie>></button>
                 </div>
-                <div class="col-4" style="background-color: #aaaaaa33">
+                <div class="col-lg-4 col-12" style="background-color: #aaaaaa33">
                     <div class="d-flex">
                         <img src="./img/Eagless.png" alt="Eagless" style="width: 30%; margin: 10px">
                         <div class="d-flex justify-content-center flex-column" style="width: 60%;">
@@ -221,11 +332,11 @@
             </div>
             <div class="row p-2">
                 <h5 style="color: #04355b">NUOVI ARRIVI IN NEGOZIO</h5>
-                <div class="d-flex flex-wrap col-12 justify-content-between align-items-stretch" style="padding: 0;">
-                    <div class="col-3 mbt-10">
+                <div class="d-flex flex-wrap col-lg-12 col-12 justify-content-between align-items-stretch" style="padding: 0;">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/Dayco.png" alt="Dayco">
+                                <img src="./img/Dayco.png" alt="Dayco" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
                             </div>
                             <img src="./img/DaycoItem.png" class="mb-3 mt-3" alt="Dayco" style="width: 100%">
@@ -236,10 +347,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/ognibenne.png" alt="ognibene">
+                                <img src="./img/ognibenne.png" alt="ognibene" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
                             </div>
                             <img src="./img/ongibeneItem.png" class="mb-3 mt-3" alt="ognibene" style="width: 100%">
@@ -251,10 +362,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/trof.png" alt="TROF">
+                                <img src="./img/trof.png" alt="TROF" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
                             </div>
                             <div class="promo-div">
@@ -272,10 +383,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/NISSIN.png"  alt="NISSIN">
+                                <img src="./img/NISSIN.png"  alt="NISSIN" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #aaa;"></i></span>
                             </div>
                             <div class="promo-div">
@@ -292,10 +403,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/Dayco.png" alt="Dayco">
+                                <img src="./img/Dayco.png" alt="Dayco" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
                             </div>
                             <div class="promo-div">
@@ -312,10 +423,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/ognibenne.png" alt="ognibene">
+                                <img src="./img/ognibenne.png" alt="ognibene" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
                             </div>
                             <div class="promo-div">
@@ -333,10 +444,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/trof.png" alt="TROF">
+                                <img src="./img/trof.png" alt="TROF" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i></span>
                             </div>
                             <div class="promo-div">
@@ -354,10 +465,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 mbt-10">
+                    <div class="col-lg-3 col-6 mbt-10">
                         <div class="item-div">
                             <div class="d-flex justify-content-between align-items-center">
-                                <img src="./img/NISSIN.png"  alt="NISSIN">
+                                <img src="./img/NISSIN.png"  alt="NISSIN" style="max-width: 40%;">
                                 <span><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #ffc107;"></i><i class="fas fa-star" style="color: #aaa;"></i></span>
                             </div>
                             <div class="promo-div">
@@ -378,25 +489,25 @@
             </div>
             <div class="row p-2" style="background-color: #aaaaaa33;">
                 <h5 style="color: #04355b">TUTORIAL RECENTI</h5>
-                <div class="col-12 mbt-10 d-flex flex-wrap">
-                    <div class="col-4">
+                <div class="col-lg-12 col-12 mbt-10 d-flex flex-wrap">
+                    <div class="col-lg-4 col-12">
                         <img src="./img/Sostituzione.png" alt="Sostituzione" style="width: 100%">
                         <h6 style="color: #04355b">Sostituzione cinghie di distribuzione Ducati Monster s4</h6>
                         <p class="news-date-category"><span style="color: #555">inserito da: </span>Josto</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <img src="./img/Riparazione.png" alt="Riparazione" style="width: 100%">
                         <h6 style="color: #04355b">Riparazione carene VTR</h6>
                         <p class="news-date-category"><span style="color: #555">inserito da: </span>Josto</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <img src="./img/ComiVerniziane.png" alt="Come verniciare" style="width: 100%">
                         <h6 style="color: #04355b">Come verniciare i cerchi della propria moto</h6>
                         <p class="news-date-category"><span style="color: #555">inserito da: </span>Josto</p>
                     </div>
                 </div>
             </div>
-            <div class="row pt-5 pb-5">
+            <div class="row pt-5 pb-5 no-mobile">
                 <div class="col-12 d-flex flex-wrap">
                     <div class="col-4">
                         <div class="banner">
@@ -417,24 +528,24 @@
             </div>
         </div>
         <div class="container-fluid" style="background-color: black;">
-            <div class="container-xl">
-                <div class="row mbt-10">
+            <div class="container-lg">
+                <div class="row mt-3">
                     <div class="col-12 d-flex flex-wrap justify-content-center">
-                        <div class="col-4 d-flex align-items-center">
+                        <div class="col-lg-4 col-12 pt-2 pb-2 d-flex align-items-center">
                             <i class="fas fa-truck" style="color: #f21e1e; font-size: 50px"></i>
                             <div class="p-2" style="color: white">
                                 <h5 style="margin-bottom: 3px;">Spedizione gratuita</h5>
                                 <p style="margin: 0;">Per ordini superiori a 199€</p>
                             </div>
                         </div>
-                        <div class="col-4 d-flex align-items-center">
+                        <div class="col-lg-4 col-12 d-flex align-items-center">
                             <i class="fas fa-credit-card" style="color: #f21e1e; font-size: 50px"></i>
                             <div class="p-2" style="color: white">
                                 <h5 style="margin-bottom: 3px;">Pagamenti sicuri</h5>
                                 <p style="margin: 0;">Utilizziamo piattaforme certificate</p>
                             </div>
                         </div>
-                        <div class="col-4 d-flex align-items-center">
+                        <div class="col-lg-4 col-12 d-flex align-items-center">
                             <i class="fas fa-redo" style="color: #f21e1e; font-size: 50px"></i>
                             <div class="p-2" style="color: white">
                                 <h5 style="margin-bottom: 3px;">Resi fino a 30gg</h5>
@@ -446,24 +557,24 @@
             </div>
         </div>
         <div class="container-fluid" style="background-image: url(./img/footerFon.png);">
-            <div class="container-xl">
+            <div class="container-lg">
                 <div class="row d-flex justify-content-around align-self-center" style="color: white; padding: 70px 0 50px 0;">
-                    <div class="col-3">
-                        <h5>Contati</h5>
+                    <div class="col-lg-3 col-12">
+                        <h5 >Contati</h5>
                         <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">Telefono:</span> 051 00000</a>
                         <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">Email: </span>info@bikechance.com</a>
                         <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">Ticket:</span> Richiedi assistenza</a>
                         <a href="#" style="color: white; font-size: 20px;"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
                     </div>
-                    <div class="col-3">
-                        <h5>Spedizioni e pagamenti</h5>
+                    <div class="col-lg-3 col-12">
+                        <h5 style="margin-top: 20px;">Spedizioni e pagamenti</h5>
                         <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Spedizioni</a>
                         <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Pagamenti</a>
                         <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span> Diritto di recesso e rimborsi</a>
                     </div>
-                    <div class="col-3">
-                        <h5>Info</h5>
+                    <div class="col-lg-3 col-12">
+                        <h5 style="margin-top: 20px;">Info</h5>
                         <a href="#" style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Chi siamo</a>
                         <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span>  Termini e condizioni</a>
                         <a href="#"style="color: white; display: block;"><span style="color: #f21e1e;">•</span> Privacy policy</a>
@@ -471,5 +582,9 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     </body>
 </html>
